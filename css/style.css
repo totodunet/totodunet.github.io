@@ -74,8 +74,8 @@
 
 article{
 	text-align:justify;
-	margin-left:50px;
-	margin-right:50px;
+	margin-left:100px;
+	margin-right:100px;
 }
 
 article>h1{
@@ -122,8 +122,10 @@ article+p,article>p:nth-child(7),article>p:nth-child(8){
 }
 
 article>div{
-	width:1762px;
+	width:1400px;
 	overflow-x:scroll;
+	border-radius:5px;
+	margin-left:100px;
 }
 
 .horizontal_scrolling{
