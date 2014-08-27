@@ -74,8 +74,8 @@
 
 article{
 	text-align:justify;
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:50px;
+	margin-right:50px;
 }
 
 article>h1{
@@ -87,6 +87,8 @@ article>h1{
 article p{
 	line-height:30px;
 	font-size:1.2em;
+	margin-left:50px;
+	margin-right:50px;
 }
 
 .code{
@@ -95,7 +97,8 @@ article p{
 	background-color:black;
 	color:white;
 	border-radius:10px;
-	padding:30px;
+	padding:5px;
+	width:1672px;
 }
 
 .code span{
@@ -106,7 +109,7 @@ article>.code+p,article>.code+p+p,article>p:last-child{
 	text-align:center;
 }
 
-article>.code+p{
+article  .code+p{
 	margin-top:25px;
 }
 
@@ -114,6 +117,25 @@ article img{
 	width:150px;
 }
 
-article+p{
+article+p,article>p:nth-child(7),article>p:nth-child(8){
 	text-align:center;
+}
+
+article>div{
+	width:1762px;
+	overflow-x:scroll;
+}
+
+.horizontal_scrolling{
+	width:3384px;
+}
+
+.code:first-child{
+	float:left;
+	margin-right:10px;
+}
+
+.code:nth-child(2){
+	float:right;
+	margin-right:10px;
 }
