@@ -5,7 +5,7 @@
 }
 
 .forkongithub a{
-	background:#000;
+	background:orange;
 	color:#fff;
 	text-decoration:none;
 	font-family:arial,sans-serif;
@@ -44,7 +44,7 @@
 		position:fixed;
 		display:block;
 		top:0;
-		left:0;
+		right:0;
 		width:200px;
 		overflow:hidden;
 		height:200px;
@@ -54,12 +54,12 @@
 	.forkongithub a{
 		width:200px;
 		position:absolute;
-		top:60px;left:-60px;
-		transform:rotate(-45deg);
-		-webkit-transform:rotate(-45deg);
-		-ms-transform:rotate(-45deg);
-		-moz-transform:rotate(-45deg);
-		-o-transform:rotate(-45deg);
+		top:50px;left:-20px;
+		transform:rotate(45deg);
+		-webkit-transform:rotate(45deg);
+		-ms-transform:rotate(45deg);
+		-moz-transform:rotate(45deg);
+		-o-transform:rotate(45deg);
 		box-shadow:4px 4px 10px rgba(0,0,0,0.8);
 	}
 }
