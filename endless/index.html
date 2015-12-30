@@ -42,6 +42,9 @@
 		<!-- JS script using endless.JS Plugin -->
 		<script type="text/javascript">
 			$(document).ready(function(){
+				$(document).bind('touchmove',function(e){
+					e.preventDefault();	
+				});
 				var count=0;
 				var prepend=false;
 				var append=false;
@@ -88,9 +91,6 @@
 					scrollbar:'disable'
 				});
 			}
-			document.addEventListener('touchmove',function(e){
-				e.preventDefault();	
-			}, false);
 		</script>
 	</head>
 	<body>
