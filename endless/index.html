@@ -43,7 +43,7 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(document).bind('touchmove',function(e){
-					e.preventDefault();	
+					e.stopPropagation();	
 				});
 				var count=0;
 				var prepend=false;
